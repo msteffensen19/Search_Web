@@ -1,0 +1,101 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: nimbusserver.aos.com:8000",
+                "infFile": "t1.inf",
+                "time": 1620082181951
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1620082181968
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: GetAccountConfigurationRequest_2",
+                "infFile": "t4.inf",
+                "time": 1620082189459
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: categories",
+                "infFile": "t5.inf",
+                "time": 1620082189509
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t6.inf",
+                "time": 1620082189559
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t7.inf",
+                "time": 1620082189582
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: home-page.html",
+                "infFile": "t8.inf",
+                "time": 1620082189598
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: search_2",
+                "infFile": "t9.inf",
+                "time": 1620082198739
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: search_3",
+                "infFile": "t10.inf",
+                "time": 1620082198792
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: all_data",
+                "infFile": "t11.inf",
+                "time": 1620082198979
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: all_data_2",
+                "infFile": "t12.inf",
+                "time": 1620082208865
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: search-page.html",
+                "infFile": "t13.inf",
+                "time": 1620082208880
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: product-page.html",
+                "infFile": "t14.inf",
+                "time": 1620082208895
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AOS_Home",
+                "rawStartTime": 1620082181626,
+                "rawEndTime": 1620082189600,
+                "thinkTime": 7.444818,
+                "wastedTime": 0.2082958221435547
+            },
+            {
+                "transactionName": "AOS_Search",
+                "rawStartTime": 1620082189646,
+                "rawEndTime": 1620082208896,
+                "thinkTime": 18.703174,
+                "wastedTime": 0.027018308639526368
+            }
+        ]
+    }
+]
